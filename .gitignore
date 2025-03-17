@@ -1,0 +1,70 @@
+# Node.js 依赖项
+node_modules/
+npm-debug.log*
+yarn-error.log
+pnpm-debug.log*
+lerna-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# 编辑器和操作系统相关文件
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 构建产物
+dist/
+build/
+coverage/
+*.log
+
+# 环境变量和配置
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# TypeScript 编译输出
+*.tsbuildinfo
+
+# 临时文件
+tmp/
+temp/
+
+# 静态网站生成工具（如 Next.js、Nuxt.js）
+.out/
+.next/
+.nuxt/
+
+# Jest 测试缓存
+.jest/
+.nyc_output/
+
+# Docker
+docker-compose.override.yml
+
+# PM2 进程管理
+pm2.log
+
+node_modules
+.env
+
+# Hardhat files
+/cache
+/artifacts
+
+# TypeChain files
+/typechain
+/typechain-types
+
+# solidity-coverage files
+/coverage
+/coverage.json
+
+# Hardhat Ignition default folder for deployments against a local node
+ignition/deployments/chain-31337
