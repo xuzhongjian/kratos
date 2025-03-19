@@ -1,6 +1,14 @@
-# About
-用于学习 web3 相关的代码和文档
-## solidity
+# web3 index
 
-| [JS 基础](docs/solidity/JS-base.md) | [hardhat 框架](docs/solidity/hardhat.md) | [数据类型](docs/solidity/data-type.md) | [JS except](docs/solidity/JS-expect.md) |[测试脚本](docs/solidity/test-script.md) | [solidity 基础](docs/solidity/solidity-base.md) |[地址](docs/solidity/path.md) | [关键字](docs/solidity/key-words.md) |
+## ethereum
+
+### hardhat
+
+| [hardhat 基础](docs/ethereum/hardhat/base.md) | [测试 - except](docs/ethereum/hardhat/test-expect.md) |
+| [测试脚本](docs/ethereum/hardhat/test-script.md) |
+
+### solidity
+| [solidity 基础](docs/ethereum/solidity/base.md) | [地址](docs/ethereum/solidity/address.md) |
+| [数据类型](docs/ethereum/solidity/data-type.md) | [关键字](docs/ethereum/solidity/key-words.md) |
+| [转账](docs/ethereum/solidity/transfer.md) |
 
