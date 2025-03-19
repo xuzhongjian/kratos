@@ -98,5 +98,3 @@ await expect(bank.connect(account1).withdraw(toWei(200))).to.be.revertedWith("In
 
 - 通过 `await` 等待 `withdraw` 方法完成。
 - 然后使用 `expect` 来验证是否回滚，并检查回滚的错误信息。
-
-希望这个解释对你有帮助！
