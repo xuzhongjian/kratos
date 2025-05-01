@@ -126,7 +126,7 @@ pragma solidity ^0.8.4;
 
 contract testRevert() {
   public owner;
-    error NotOwner();
+  error NotOwner();
     
   function transferOwnership(address newOwner) public {
      if(owner != msg.sender)  revert NotOwner();
